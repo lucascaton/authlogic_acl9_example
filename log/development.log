@@ -1,0 +1,839 @@
+/!\ FAILSAFE /!\  Wed Sep 09 18:01:39 -0300 2009
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:156:in `require'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:156:in `require'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /home/caton/.gem/ruby/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Sep 09 18:01:41 -0300 2009
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:156:in `require'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:156:in `require'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /home/caton/.gem/ruby/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Sep 09 18:02:04 -0300 2009
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:156:in `require'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:156:in `require'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/caton/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+    /home/caton/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+    /home/caton/.gem/ruby/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/caton/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:13:in `run'
+    /home/caton/.gem/ruby/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:03:17) [GET]
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (5.1ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (6.9ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090909210354)
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "email" varchar(255), "crypted_password" varchar(255), "password_salt" varchar(255), "persistence_token" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090909210354')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("users")[0m
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:15:25) [GET]
+Rendering template within layouts/application
+Rendering static_content/index
+
+ActionView::TemplateError (undefined local variable or method `current_user' for #<ActionView::Base:0xb75017e0>) on line #12 of app/views/layouts/application.html.erb:
+9:   <body>
+10:     <div id="container">
+11:       <div id="user_nav">
+12:         <% if current_user %>
+13:           <%= link_to "Editar", edit_user_path(:current) %> |
+14:           <%= link_to "Logout", logout_path %>
+15:         <% else %>
+
+    app/views/layouts/application.html.erb:12
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.5ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:15:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-09 18:15:57) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 27ms (View: 12, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-09 18:15:59) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (9.0ms)
+Completed in 36ms (View: 24, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-09 18:16:06) [POST]
+  Parameters: {"commit"=>"Enviar", "action"=>"create", "authenticity_token"=>"RWrmcl2ftftHHMg2wDgI13fDnrxzKCKot5Hhhdiq9So=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "username"=>"lucascaton", "password"=>"[FILTERED]", "email"=>"lucascaton"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'lucascaton') LIMIT 1[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'lucascaton') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '6126d2284c712ac677a5edbf661573ea288f1da85d7dd8dee0efafde85850c34682793b1ddf03ad872433e1c9391f59bdb0688e159f37ece8d31ba06f62ae39e') LIMIT 1[0m
+
+NameError (undefined local variable or method `‘new’' for #<UsersController:0xb60bcbb8>):
+  app/controllers/users_controller.rb:12:in `create'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2009-09-09 18:17:10) [POST]
+  Parameters: {"commit"=>"Enviar", "action"=>"create", "authenticity_token"=>"RWrmcl2ftftHHMg2wDgI13fDnrxzKCKot5Hhhdiq9So=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "username"=>"lucascaton", "password"=>"[FILTERED]", "email"=>"lucascaton"}}
+
+SyntaxError (/home/caton/Desktop/authlogic_acl9/app/controllers/users_controller.rb:26: unterminated string meets end of file
+/home/caton/Desktop/authlogic_acl9/app/controllers/users_controller.rb:26: syntax error, unexpected $end, expecting kEND):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (120.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-09 18:17:22) [POST]
+  Parameters: {"commit"=>"Enviar", "action"=>"create", "authenticity_token"=>"RWrmcl2ftftHHMg2wDgI13fDnrxzKCKot5Hhhdiq9So=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "username"=>"lucascaton", "password"=>"[FILTERED]", "email"=>"lucascaton"}}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'lucascaton') LIMIT 1[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'lucascaton') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '7a78b838a780224940ce85f529bdc033b03bb969bb1ef3373a550d439f6d997ef2fdb04b18349911604d1206c1f6e262092b6b4a64f8e1f0f536b9e6f7772859') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (11.0ms)
+Completed in 42ms (View: 19, DB: 1) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-09 18:17:26) [POST]
+  Parameters: {"commit"=>"Enviar", "action"=>"create", "authenticity_token"=>"RWrmcl2ftftHHMg2wDgI13fDnrxzKCKot5Hhhdiq9So=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "username"=>"lucascaton", "password"=>"[FILTERED]", "email"=>"lucascaton@gmail.com"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'lucascaton@gmail.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'lucascaton') LIMIT 1[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '5b89052b250c597f3103ee92def7e99d6741990131816d1f61942a39e2e62cdb3a71091284ad5d509e8a377c37056a512106bf6c5b374eba0afdfa7e487976ab') LIMIT 1[0m
+  [4;35;1mUser Create (0.5ms)[0m   [0mINSERT INTO "users" ("created_at", "crypted_password", "updated_at", "username", "password_salt", "persistence_token", "email") VALUES('2009-09-09 21:17:26', '80bdd65b195ac1323db9cbfde479591b19808df5c85a7fe02e70c3cb46012856ca24007d2a93ef8f0a334d743a479815f7136e012b26477d648e67a19f9fb42d', '2009-09-09 21:17:26', 'lucascaton', 'BSAxoQqmwC1wOviqqzd0', '5b89052b250c597f3103ee92def7e99d6741990131816d1f61942a39e2e62cdb3a71091284ad5d509e8a377c37056a512106bf6c5b374eba0afdfa7e487976ab', 'lucascaton@gmail.com')[0m
+Redirected to http://localhost:3000/
+Completed in 33ms (DB: 1) | 302 Found [http://localhost/users]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:17:26) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."persistence_token" = '5b89052b250c597f3103ee92def7e99d6741990131816d1f61942a39e2e62cdb3a71091284ad5d509e8a377c37056a512106bf6c5b374eba0afdfa7e487976ab') LIMIT 1[0m
+Completed in 31ms (View: 28, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-09-09 18:17:31) [GET]
+  Parameters: {"action"=>"edit", "id"=>"current", "controller"=>"users"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."persistence_token" = '5b89052b250c597f3103ee92def7e99d6741990131816d1f61942a39e2e62cdb3a71091284ad5d509e8a377c37056a512106bf6c5b374eba0afdfa7e487976ab') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (5.7ms)
+Completed in 36ms (View: 13, DB: 1) | 200 OK [http://localhost/users/current/edit]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-09-09 18:19:27) [GET]
+  Parameters: {"action"=>"edit", "id"=>"current", "controller"=>"users"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."persistence_token" = '5b89052b250c597f3103ee92def7e99d6741990131816d1f61942a39e2e62cdb3a71091284ad5d509e8a377c37056a512106bf6c5b374eba0afdfa7e487976ab') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (6.0ms)
+Completed in 37ms (View: 15, DB: 1) | 200 OK [http://localhost/users/current/edit]
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2009-09-09 18:19:30) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"user_sessions"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."persistence_token" = '5b89052b250c597f3103ee92def7e99d6741990131816d1f61942a39e2e62cdb3a71091284ad5d509e8a377c37056a512106bf6c5b374eba0afdfa7e487976ab') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 20ms (DB: 0) | 302 Found [http://localhost/logout]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:19:30) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 18ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:23:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 26ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:23:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/static_content]
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:23:38) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+
+ActionController::UnknownAction (No action responded to index2. Actions: index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:23:43) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+
+ActionController::UnknownAction (No action responded to index2. Actions: index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:23:57) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+
+ActionController::UnknownAction (No action responded to index2. Actions: index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:23:59) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+
+ActionController::UnknownAction (No action responded to index2. Actions: index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:24:44) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+
+ActionView::MissingTemplate (Missing template static_content/index2.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:24:45) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+
+ActionView::MissingTemplate (Missing template static_content/index2.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:24:54) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index2
+Completed in 49ms (View: 46, DB: 0) | 200 OK [http://localhost/static_content/index2]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:25:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/static_content]
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:25:03) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index2
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://localhost/static_content/index2]
+
+
+Processing StaticContentController#index3 (for 127.0.0.1 at 2009-09-09 18:25:03) [GET]
+  Parameters: {"action"=>"index3", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index3
+Completed in 24ms (View: 21, DB: 0) | 200 OK [http://localhost/static_content/index3]
+
+
+Processing StaticContentController#index4 (for 127.0.0.1 at 2009-09-09 18:25:04) [GET]
+  Parameters: {"action"=>"index4", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index4
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://localhost/static_content/index4]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:25:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://localhost/static_content]
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090909210354)
+Migrating to CreateRoles (20090909212723)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE TABLE "roles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(40), "authorizable_type" varchar(40), "authorizable_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090909212723')[0m
+Migrating to RolesUsers (20090909212821)
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TABLE "roles_users" ("user_id" integer, "role_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090909212821')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("roles")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("roles_users")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("users")[0m
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:29:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/static_content]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:30:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/static_content]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:30:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/static_content]
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:30:04) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index2
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/static_content/index2]
+
+
+Processing StaticContentController#index3 (for 127.0.0.1 at 2009-09-09 18:30:05) [GET]
+  Parameters: {"action"=>"index3", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index3
+Completed in 91ms (View: 88, DB: 0) | 200 OK [http://localhost/static_content/index3]
+
+
+Processing StaticContentController#index4 (for 127.0.0.1 at 2009-09-09 18:30:05) [GET]
+  Parameters: {"action"=>"index4", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index4
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/static_content/index4]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:30:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/static_content]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:32:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/static_content]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:32:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/static_content]
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:32:34) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index2
+Completed in 20ms (View: 3, DB: 0) | 200 OK [http://localhost/static_content/index2]
+
+
+Processing StaticContentController#index3 (for 127.0.0.1 at 2009-09-09 18:32:35) [GET]
+  Parameters: {"action"=>"index3", "controller"=>"static_content"}
+Redirected to http://localhost:3000/login
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-09 18:32:35) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 29ms (View: 13, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing StaticContentController#index4 (for 127.0.0.1 at 2009-09-09 18:32:38) [GET]
+  Parameters: {"action"=>"index4", "controller"=>"static_content"}
+Redirected to http://localhost:3000/login
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-09-09 18:32:38) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 24ms (View: 8, DB: 0) | 200 OK [http://localhost/login]
+
+
+Processing UserSessionsController#create (for 127.0.0.1 at 2009-09-09 18:32:45) [POST]
+  Parameters: {"commit"=>"Enviar", "user_session"=>{"username"=>"lucascaton", "password"=>"[FILTERED]"}, "action"=>"create", "authenticity_token"=>"RWrmcl2ftftHHMg2wDgI13fDnrxzKCKot5Hhhdiq9So=", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE (LOWER("users".username) = 'lucascaton') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 202ms (DB: 0) | 302 Found [http://localhost/user_sessions]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:32:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Completed in 25ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:32:48) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering static_content/index2
+Completed in 104ms (View: 3, DB: 0) | 200 OK [http://localhost/static_content/index2]
+
+
+Processing StaticContentController#index3 (for 127.0.0.1 at 2009-09-09 18:32:49) [GET]
+  Parameters: {"action"=>"index3", "controller"=>"static_content"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering static_content/index3
+Completed in 26ms (View: 3, DB: 0) | 200 OK [http://localhost/static_content/index3]
+
+
+Processing StaticContentController#index4 (for 127.0.0.1 at 2009-09-09 18:32:49) [GET]
+  Parameters: {"action"=>"index4", "controller"=>"static_content"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering static_content/denied
+
+
+Processing StaticContentController#index3 (for 127.0.0.1 at 2009-09-09 18:32:51) [GET]
+  Parameters: {"action"=>"index3", "controller"=>"static_content"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering static_content/index3
+Completed in 25ms (View: 3, DB: 0) | 200 OK [http://localhost/static_content/index3]
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2009-09-09 18:33:30) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = '1') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 22ms (DB: 0) | 302 Found [http://localhost/logout]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:33:30) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-09-09 18:33:40) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (8.6ms)
+Completed in 39ms (View: 25, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-09-09 18:33:51) [POST]
+  Parameters: {"commit"=>"Enviar", "action"=>"create", "authenticity_token"=>"RWrmcl2ftftHHMg2wDgI13fDnrxzKCKot5Hhhdiq9So=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "username"=>"lucascaton2", "password"=>"[FILTERED]", "email"=>"lucascaton2@gmail.com"}}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'lucascaton2@gmail.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."username") = 'lucascaton2') LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."persistence_token" = '77246e626616b935f4361300f10bef28256bc706c832f248fb1b939a2b1f8dcd267fb7365f74a815f151255ff110c57bd3913ca80d3f74020b169f3c3df2858f') LIMIT 1[0m
+  [4;36;1mUser Create (0.6ms)[0m   [0;1mINSERT INTO "users" ("created_at", "crypted_password", "updated_at", "username", "password_salt", "persistence_token", "email") VALUES('2009-09-09 21:33:51', 'ca9e41df50284f2c56b7482f3a1ef491c09dc2f149cf081472622b16c4e0c91fed7f1f9b4b1a7282c22ad57f8ee20542c6f8187578918581dbf0b3e743cd83b7', '2009-09-09 21:33:51', 'lucascaton2', 'ZzfnOpwykc9OloeVthi4', '77246e626616b935f4361300f10bef28256bc706c832f248fb1b939a2b1f8dcd267fb7365f74a815f151255ff110c57bd3913ca80d3f74020b169f3c3df2858f', 'lucascaton2@gmail.com')[0m
+Redirected to http://localhost:3000/
+Completed in 35ms (DB: 1) | 302 Found [http://localhost/users]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:33:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."persistence_token" = '77246e626616b935f4361300f10bef28256bc706c832f248fb1b939a2b1f8dcd267fb7365f74a815f151255ff110c57bd3913ca80d3f74020b169f3c3df2858f') LIMIT 1[0m
+Completed in 26ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:33:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+  [4;36;1mUser Load (16.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."persistence_token" = '77246e626616b935f4361300f10bef28256bc706c832f248fb1b939a2b1f8dcd267fb7365f74a815f151255ff110c57bd3913ca80d3f74020b169f3c3df2858f') LIMIT 1[0m
+Completed in 109ms (View: 89, DB: 17) | 200 OK [http://localhost/static_content]
+
+
+Processing StaticContentController#index2 (for 127.0.0.1 at 2009-09-09 18:33:54) [GET]
+  Parameters: {"action"=>"index2", "controller"=>"static_content"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."persistence_token" = '77246e626616b935f4361300f10bef28256bc706c832f248fb1b939a2b1f8dcd267fb7365f74a815f151255ff110c57bd3913ca80d3f74020b169f3c3df2858f') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering static_content/index2
+Completed in 27ms (View: 3, DB: 1) | 200 OK [http://localhost/static_content/index2]
+
+
+Processing StaticContentController#index3 (for 127.0.0.1 at 2009-09-09 18:33:55) [GET]
+  Parameters: {"action"=>"index3", "controller"=>"static_content"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."persistence_token" = '77246e626616b935f4361300f10bef28256bc706c832f248fb1b939a2b1f8dcd267fb7365f74a815f151255ff110c57bd3913ca80d3f74020b169f3c3df2858f') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering static_content/index3
+Completed in 25ms (View: 3, DB: 0) | 200 OK [http://localhost/static_content/index3]
+
+
+Processing StaticContentController#index4 (for 127.0.0.1 at 2009-09-09 18:33:55) [GET]
+  Parameters: {"action"=>"index4", "controller"=>"static_content"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."persistence_token" = '77246e626616b935f4361300f10bef28256bc706c832f248fb1b939a2b1f8dcd267fb7365f74a815f151255ff110c57bd3913ca80d3f74020b169f3c3df2858f') LIMIT 1[0m
+  [4;36;1mRole Load (0.2ms)[0m   [0;1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles"."name" = 'admin') AND ("roles_users".user_id = 2 ) LIMIT 1[0m
+  [4;35;1mRole Load (0.2ms)[0m   [0mSELECT * FROM "roles" WHERE (name = 'admin' and authorizable_type IS NULL and authorizable_id IS NULL) LIMIT 1[0m
+  [4;36;1mRole Load (0.2ms)[0m   [0;1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 2 ) [0m
+Rendering template within layouts/application
+Rendering static_content/denied
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;36;1mRole Load (0.2ms)[0m   [0;1mSELECT * FROM "roles" WHERE (name = 'admin' and authorizable_type IS NULL and authorizable_id IS NULL) LIMIT 1[0m
+  [4;35;1mRole Create (0.6ms)[0m   [0mINSERT INTO "roles" ("name", "created_at", "authorizable_type", "updated_at", "authorizable_id") VALUES('admin', '2009-09-09 21:34:13', NULL, '2009-09-09 21:34:13', NULL)[0m
+  [4;36;1mRole Load (0.3ms)[0m   [0;1mSELECT "roles".id FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles"."id" = 1) AND ("roles_users".user_id = 2 ) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "roles_users" ("created_at", "updated_at", "role_id", "user_id") VALUES ('2009-09-09 21:34:13', '2009-09-09 21:34:13', 1, 2)[0m
+  [4;36;1mRole Load (0.5ms)[0m   [0;1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 2 ) [0m
+
+
+Processing StaticContentController#index4 (for 127.0.0.1 at 2009-09-09 18:34:15) [GET]
+  Parameters: {"action"=>"index4", "controller"=>"static_content"}
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."persistence_token" = '77246e626616b935f4361300f10bef28256bc706c832f248fb1b939a2b1f8dcd267fb7365f74a815f151255ff110c57bd3913ca80d3f74020b169f3c3df2858f') LIMIT 1[0m
+  [4;36;1mRole Load (0.4ms)[0m   [0;1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles"."name" = 'admin') AND ("roles_users".user_id = 2 ) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering static_content/index4
+Completed in 34ms (View: 3, DB: 1) | 200 OK [http://localhost/static_content/index4]
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;36;1mRole Load (0.5ms)[0m   [0;1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles"."name" = 'admin') AND ("roles_users".user_id = 2 ) LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;36;1mRole Load (0.4ms)[0m   [0;1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles"."name" = 'admin') AND ("roles_users".user_id = 2 ) LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mRole Load (0.2ms)[0m   [0;1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles"."name" = 'admin') AND ("roles_users".user_id = 1 ) LIMIT 1[0m
+  [4;35;1mRole Load (0.4ms)[0m   [0mSELECT * FROM "roles" WHERE (name = 'admin' and authorizable_type IS NULL and authorizable_id IS NULL) LIMIT 1[0m
+  [4;36;1mRole Load (0.2ms)[0m   [0;1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 ) [0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;36;1mRole Load (0.8ms)[0m   [0;1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles"."name" = 'admin') AND ("roles_users".user_id = 2 ) LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;36;1mRole Load (0.2ms)[0m   [0;1mSELECT "roles".* FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles"."name" = 'admin') AND ("roles_users".user_id = 1 ) LIMIT 1[0m
+  [4;35;1mRole Load (0.4ms)[0m   [0mSELECT * FROM "roles" WHERE (name = 'admin' and authorizable_type IS NULL and authorizable_id IS NULL) LIMIT 1[0m
+  [4;36;1mRole Load (0.2ms)[0m   [0;1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 ) [0m
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:34:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."persistence_token" = '77246e626616b935f4361300f10bef28256bc706c832f248fb1b939a2b1f8dcd267fb7365f74a815f151255ff110c57bd3913ca80d3f74020b169f3c3df2858f') LIMIT 1[0m
+Completed in 28ms (View: 25, DB: 1) | 200 OK [http://localhost/static_content]
+
+
+Processing UserSessionsController#destroy (for 127.0.0.1 at 2009-09-09 18:34:54) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"user_sessions"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."persistence_token" = '77246e626616b935f4361300f10bef28256bc706c832f248fb1b939a2b1f8dcd267fb7365f74a815f151255ff110c57bd3913ca80d3f74020b169f3c3df2858f') LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed in 23ms (DB: 1) | 302 Found [http://localhost/logout]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:34:54) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StaticContentController#index (for 127.0.0.1 at 2009-09-09 18:34:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"static_content"}
+Rendering template within layouts/application
+Rendering static_content/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/static_content]
